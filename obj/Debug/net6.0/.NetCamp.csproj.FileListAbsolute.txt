@@ -1,0 +1,15 @@
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.csproj.AssemblyReference.cache
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.AssemblyInfoInputs.cache
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.AssemblyInfo.cs
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.csproj.CoreCompileInputs.cache
+C:\.NetCamp\bin\Debug\net6.0\.NetCamp.exe
+C:\.NetCamp\bin\Debug\net6.0\.NetCamp.deps.json
+C:\.NetCamp\bin\Debug\net6.0\.NetCamp.runtimeconfig.json
+C:\.NetCamp\bin\Debug\net6.0\.NetCamp.dll
+C:\.NetCamp\bin\Debug\net6.0\.NetCamp.pdb
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.dll
+C:\.NetCamp\obj\Debug\net6.0\refint\.NetCamp.dll
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.pdb
+C:\.NetCamp\obj\Debug\net6.0\.NetCamp.genruntimeconfig.cache
+C:\.NetCamp\obj\Debug\net6.0\ref\.NetCamp.dll

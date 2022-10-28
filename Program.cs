@@ -16,7 +16,7 @@ pessoa2.Apresentar();
 
 Pessoa pessoa3 = new Pessoa();
 
-pessoa3.Nome = "Alberto";
+pessoa3.Nome = "Amaral";
 pessoa3.Idade = 30;
 pessoa3.Altura = 1.70;
 

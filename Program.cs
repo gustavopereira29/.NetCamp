@@ -2,7 +2,7 @@
 
 Pessoa pessoa1 = new Pessoa();
 
-pessoa1.Nome = "Guga";
+pessoa1.Nome = "Gustavo";
 pessoa1.Idade = 25;
 pessoa1.Altura = 1.91;
 pessoa1.Apresentar();

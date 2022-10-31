@@ -1,7 +1,25 @@
 ﻿using Models;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Operador NOT !
 
-bool choveu = true;
+/*bool choveu = true;
 bool estaTarde = true;
 
 if(!choveu && !estaTarde)
@@ -136,7 +154,7 @@ Console.WriteLine(b);*/
 
 
 
-Pessoa pessoa1 = new Pessoa();
+/*Pessoa pessoa1 = new Pessoa();
 
 pessoa1.Nome = "Gustavo";
 pessoa1.Idade = 25;
@@ -158,3 +176,4 @@ pessoa3.Altura = 1.70;
 
 DateTime dataAtual = DateTime.Now.AddMonths(4);
 Console.WriteLine(dataAtual);
+*/

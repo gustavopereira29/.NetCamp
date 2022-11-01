@@ -1,6 +1,37 @@
 ﻿using Models;
 
 
+//Operadores Aritmeticos
+Calculadora calc = new Calculadora();
+calc.Somar(20, 30);
+calc.Subtrair(62, 30);
+calc.Multiplicar(20, 21);
+calc.Dividir(80, 20);
+calc.Potencia(20, 5);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(144);
+
+//Incremento e Decremento
+
+int numeroIncremento = 21;
+Console.WriteLine(numeroIncremento);
+Console.WriteLine("Incrementando o 21");
+//numeroIncremento = numeroIncremento + 1;
+numeroIncremento++;
+
+int numeroDecremento = 29;
+Console.WriteLine("Decrementando o 29");
+numeroDecremento = numeroDecremento - 1;
+
+Console.WriteLine(numeroDecremento);
+
+
+
+
+
+
 
 
 
@@ -19,7 +50,7 @@
 
 //Operador NOT !
 
-/*bool choveu = true;
+bool choveu = true;
 bool estaTarde = true;
 
 if(!choveu && !estaTarde)
@@ -132,17 +163,17 @@ else{
 
 //Casting
 
-int a = Convert.ToInt32(null);
+/*int a = Convert.ToInt32(null);
 int ab = int.Parse("5");
 
 //CAsting de String
 
 //int inteiro = 5;
-/*string a = inteiro.ToString();
+string a = inteiro.ToString();
 
 //TryParse
 
-string a = "15-";
+string a = "15";
 int b = 0;
 
 int.TryParse(a, out b);
@@ -154,7 +185,7 @@ Console.WriteLine(b);*/
 
 
 
-/*Pessoa pessoa1 = new Pessoa();
+Pessoa pessoa1 = new Pessoa();
 
 pessoa1.Nome = "Gustavo";
 pessoa1.Idade = 25;
@@ -176,4 +207,3 @@ pessoa3.Altura = 1.70;
 
 DateTime dataAtual = DateTime.Now.AddMonths(4);
 Console.WriteLine(dataAtual);
-*/

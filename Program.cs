@@ -2,6 +2,57 @@
 
 //Estruturas de repetição
 
+//Menu simples usando estrututra de repetição
+
+string opcao;
+bool exibirMenu = true;
+
+while(exibirMenu){
+
+    Console.Clear();
+    Console.WriteLine("Escolha uma das opções: ");
+    Console.WriteLine("1 - Cadastrar Cliente");
+    Console.WriteLine("2 - Buscar Cliente");
+    Console.WriteLine("3 - Apagar Cliente");
+    Console.WriteLine("4 - Encerrar Sessão");
+
+    opcao = Console.ReadLine();
+
+    switch(opcao){
+
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
+            break;
+
+        case "2":
+            Console.WriteLine("Busca de cliente");
+            break;
+
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+
+        case "4":
+            Console.WriteLine("Encerrar Sessão");
+            exibirMenu = false;
+            Environment.Exit(0);
+            break;
+
+        default:
+            Console.WriteLine("Opção Inválida");
+            break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 //Do While
 
 int soma = 0, numero2 = 0;
@@ -46,7 +97,7 @@ for (int contador = 0; contador <= 21; contador++){
 
 
 //Operadores Aritmeticos
-/*Calculadora calc = new Calculadora();
+Calculadora calc = new Calculadora();
 calc.Somar(20, 30);
 calc.Subtrair(62, 30);
 calc.Multiplicar(20, 21);
@@ -207,13 +258,13 @@ else{
 
 //Casting
 
-/*int a = Convert.ToInt32(null);
+int a = Convert.ToInt32(null);
 int ab = int.Parse("5");
 
 //CAsting de String
 
 //int inteiro = 5;
-string a = inteiro.ToString();
+/*string a = inteiro.ToString();
 
 //TryParse
 
@@ -222,14 +273,14 @@ int b = 0;
 
 int.TryParse(a, out b);
 
-Console.WriteLine(b);*/
+Console.WriteLine(b)*/
 
 
 
 
 
 
-/*Pessoa pessoa1 = new Pessoa();
+Pessoa pessoa1 = new Pessoa();
 
 pessoa1.Nome = "Gustavo";
 pessoa1.Idade = 25;
@@ -250,4 +301,4 @@ pessoa3.Idade = 30;
 pessoa3.Altura = 1.70;
 
 DateTime dataAtual = DateTime.Now.AddMonths(4);
-Console.WriteLine(dataAtual);*/
+Console.WriteLine(dataAtual);

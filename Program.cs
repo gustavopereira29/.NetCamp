@@ -1,8 +1,52 @@
 ﻿using Models;
 
+//Estruturas de repetição
+
+//Do While
+
+int soma = 0, numero2 = 0;
+
+do{
+    Console.WriteLine("Digite um número: (0 para parar)");
+    numero2 = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero2;
+
+}while(numero2 != 0);
+    Console.WriteLine($"A soma dos números digitados é: {soma}");
+
+
+
+//While
+
+int numero1 = 29;
+int contador1 = 1;
+
+while (contador1 <= 10){
+    Console.WriteLine($"{contador1 + 1}° Execução: {numero1} x {contador1} = {numero1 * contador1}");
+    contador1++;
+
+    if(contador1 == 7){
+        break;
+    }
+}
+
+
+//For
+
+int numero = 21;
+
+for (int contador = 0; contador <= 21; contador++){
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}"); 
+}
+
+
+
+
+
 
 //Operadores Aritmeticos
-Calculadora calc = new Calculadora();
+/*Calculadora calc = new Calculadora();
 calc.Somar(20, 30);
 calc.Subtrair(62, 30);
 calc.Multiplicar(20, 21);
@@ -185,7 +229,7 @@ Console.WriteLine(b);*/
 
 
 
-Pessoa pessoa1 = new Pessoa();
+/*Pessoa pessoa1 = new Pessoa();
 
 pessoa1.Nome = "Gustavo";
 pessoa1.Idade = 25;
@@ -206,4 +250,4 @@ pessoa3.Idade = 30;
 pessoa3.Altura = 1.70;
 
 DateTime dataAtual = DateTime.Now.AddMonths(4);
-Console.WriteLine(dataAtual);
+Console.WriteLine(dataAtual);*/
